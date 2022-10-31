@@ -1,0 +1,42 @@
+{
+    "add_is_visible": true,
+    "autobinding_value": "boolean",
+    "category": "input forms",
+    "default_dim": {
+        "height": 30,
+        "width": 45
+    },
+    "display": "toggle",
+    "events": {
+        "AAF": {
+            "caption": "changed",
+            "name": "changed"
+        }
+    },
+    "fields": {
+        "AAE": {
+            "caption": "Main color",
+            "default_val": "rgba(51, 51, 51, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "main_color",
+            "rank": 0
+        }
+    },
+    "icon": "ion-toggle",
+    "property_applications": {
+        "Padding": false,
+        "resizable": false
+    },
+    "states": {
+        "AAD": {
+            "caption": "checked",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "checked",
+            "value": "boolean"
+        }
+    },
+    "support_autobinding": true
+}

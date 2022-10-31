@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "blog",
+        "2": "customer support",
+        "3": "data (things)"
+    },
+    "demo_page": "https://freetoggle.bubbleapps.io/version-test",
+    "description": "Free Toggle with custom color",
+    "image": "//s3.amazonaws.com/appforest_uf/f1660328910360x499816209646279700/Free%20Toggle.png",
+    "license": "open_source",
+    "link": "https://freetoggle.bubbleapps.io/version-test",
+    "name": "Free Toggle",
+    "plugin_instructions": "Put this element on your screen and use as a toggle"
+}
