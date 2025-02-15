@@ -6,15 +6,15 @@
         "height": 30,
         "width": 45
     },
-    "display": "toggle",
+    "display": "Toggle v2",
     "events": {
-        "AAF": {
+        "AAG": {
             "caption": "changed",
             "name": "changed"
         }
     },
     "fields": {
-        "AAE": {
+        "AAH": {
             "caption": "Main color",
             "default_val": "rgba(51, 51, 51, 1)",
             "editor": "Color",
@@ -22,22 +22,30 @@
             "name": "main_color",
             "rank": 0
         },
-        "AAQ": {
-            "caption": "disable",
-            "default_val": false,
-            "editor": "DynamicValue",
-            "name": "disable",
-            "rank": 1,
-            "value": "boolean"
+        "AAK": {
+            "caption": "Background Color",
+            "default_val": "rgba(204, 204, 204, 1)",
+            "editor": "Color",
+            "name": "unchecked_color",
+            "rank": 1
+        },
+        "AAL": {
+            "caption": "Preset",
+            "default_val": " Unchecked",
+            "editor": "Dropdown",
+            "name": "preset",
+            "options": "Checked, Unchecked, Autobinding",
+            "rank": 2
         }
     },
     "icon": "ion-toggle",
     "property_applications": {
+        "Background": true,
         "Padding": false,
-        "resizable": true
+        "resizable": false
     },
     "states": {
-        "AAD": {
+        "AAI": {
             "caption": "checked",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\n\n\n}"

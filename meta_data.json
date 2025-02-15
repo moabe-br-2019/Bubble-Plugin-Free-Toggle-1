@@ -5,11 +5,13 @@
         "2": "customer support",
         "3": "data (things)"
     },
+    "data_tracked": false,
     "demo_page": "https://freetoggle.bubbleapps.io/version-test",
-    "description": "Free Toggle with custom color",
+    "description": "Free Toggle is a customizable toggle switch element that brings modern UI interactions to your Bubble app. This plugin offers a sleek and responsive toggle switch with smooth animations and color customization options.\nKey features:\n\nClean and modern design\nCustomizable colors\nSmooth transition animations\nFully responsive and resizable\nBuilt-in preset states (Checked, Unchecked, Autobinding)\nEasy to implement and use\n\nPerfect for settings pages, preference toggles, on/off switches, and any interface that requires binary state controls. Simply drag and drop the element onto your page and customize its appearance to match your app's design.",
     "image": "//s3.amazonaws.com/appforest_uf/f1660328910360x499816209646279700/Free%20Toggle.png",
     "license": "open_source",
     "link": "https://freetoggle.bubbleapps.io/version-test",
     "name": "Free Toggle",
-    "plugin_instructions": "Put this element on your screen and use as a toggle"
+    "plugin_instructions": " Simply drag and drop the element onto your page and customize its appearance to match your app's design.",
+    "sa_node_version": 18
 }

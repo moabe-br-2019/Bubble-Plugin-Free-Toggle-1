@@ -2,17 +2,16 @@
 .mytoggle{
   width:40px;
   height:25px;
-  background-color:#ccc;
+  background-color:var(--uncheck-toggle, #CCCCCC);
   border-radius:20px;
-  border:3px solid #ccc;
+  border:3px solid var(--uncheck-toggle, #CCCCCC);
   cursor:pointer;
   transition: .4s;
 }
 
 .mytoggle:before{
   content:"";
-  width:18px;
-  height:18px;
+  width:19px;  height:19px;
   background-color:var(--check-toggle, #333333);
   position:absolute;
   box-shadow:1px 1px 2px 1px var(--check-toggle, #333333);
